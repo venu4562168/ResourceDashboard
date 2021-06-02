@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { InformationdashboardComponent } from './informationdashboard/informationdashboard.component';
 import { LoginComponent } from './login/login.component';
+import { NewpasswordComponent } from './newpassword/newpassword.component';
 
 
 
@@ -15,6 +16,7 @@ import { LoginComponent } from './login/login.component';
     RegistrationComponent,
     InformationdashboardComponent,
     LoginComponent,
+    NewpasswordComponent,
   ],
   imports: [
     BrowserModule,

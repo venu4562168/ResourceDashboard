@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { InformationdashboardComponent } from './informationdashboard/informationdashboard.component';
 import { LoginComponent } from './login/login.component';
+import { NewpasswordComponent } from './newpassword/newpassword.component';
 import { RegistrationComponent } from './registration/registration.component';
 
 
@@ -10,6 +11,7 @@ import { RegistrationComponent } from './registration/registration.component';
 const routes: Routes = [
   { path: '', component: InformationdashboardComponent},
   { path: 'login', component: LoginComponent},
+  { path: 'newpassword', component: NewpasswordComponent},
 { path: 'registration', component: RegistrationComponent}
 
 ];
